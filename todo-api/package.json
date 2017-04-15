@@ -1,0 +1,15 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rest-api-starter": "0.0.28",
+    "uuid": "^3.0.1"
+  }
+}
