@@ -1,3 +1,5 @@
+import '../css/app.css';
+
 import React from 'react';
 import { render } from 'react-dom';
 import { createStore, applyMiddleware } from 'redux';
@@ -8,9 +10,13 @@ import { TodoPage } from './containers';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
-render(
-    <Provider store={store}>
-        <TodoPage />
-    </Provider>,
-    document.getElementById('app')
-);
+document.addEventListener("DOMContentLoaded", function() {
+
+    render(
+        <Provider store={store}>
+            <TodoPage />
+        </Provider>,
+        document.getElementById('app')
+    );
+
+});

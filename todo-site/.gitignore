@@ -6,6 +6,7 @@
 # User-specific stuff:
 bundle.js
 .idea
+img
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries

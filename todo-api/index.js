@@ -1,7 +1,6 @@
 /**
  * Created by vinci on 4/14/17.
  */
-console.log("i'm up bitchess");
 
 const uuid = require('uuid');
 const serveBuilder = require('rest-api-starter').server;
