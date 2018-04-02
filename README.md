@@ -19,5 +19,3 @@ cd todo-site
 npm install
 npm run serve
 ```
-
-Then visit `http://localhost:8080/`.
